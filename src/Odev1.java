@@ -30,7 +30,7 @@ public class Odev1 {
         double sonuc = toplam / 6.0;
         Boolean not = sonuc >60;
         String a =  not ? "Geçtiniz" :"Kaldınız";
-
+   // no1
 
 
         System.out.println( a );

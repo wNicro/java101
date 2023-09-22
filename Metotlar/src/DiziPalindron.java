@@ -13,7 +13,7 @@ public class DiziPalindron {
             for (int j =i;j<elamansayisi;j++){
                 if(i==dizi[j]){t++;}
             }
-            if(t%2)
+           // if(t%2)
         }
 
 

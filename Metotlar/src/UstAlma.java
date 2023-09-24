@@ -17,7 +17,7 @@ public class UstAlma {
         while(x==0) {
             System.out.print("Taban değeri giriniz : ");
             x = ipt.nextInt();
-            System.out.println(" ");
+            System.out.println();
         }
         System.out.print("Üs değerini giriniz  : ");
         int y = ipt.nextInt();

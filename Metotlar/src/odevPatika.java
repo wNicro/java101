@@ -20,7 +20,7 @@ public class odevPatika {
     public static void main(String[] args) {
         Scanner ipt = new Scanner(System.in);
 
-
+int  y;
         System.out.print("N Sayisi : ");
         int x = ipt.nextInt();
         func(x,0,x);

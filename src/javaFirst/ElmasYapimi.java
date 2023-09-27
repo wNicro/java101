@@ -1,3 +1,5 @@
+package javaFirst;
+
 import java.util.Scanner;
 
 public class ElmasYapimi {

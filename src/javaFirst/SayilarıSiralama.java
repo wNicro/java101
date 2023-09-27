@@ -1,3 +1,5 @@
+package javaFirst;
+
 import java.util.Scanner;
 public class SayilarıSiralama {
     public static void main(String[] args) {

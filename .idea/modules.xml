@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ClassCalisma/ClassCalisma.iml" filepath="$PROJECT_DIR$/ClassCalisma/ClassCalisma.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/Metotlar/Metotlar.iml" filepath="$PROJECT_DIR$/src/Metotlar/Metotlar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/OgrenciBilgiSistemi/OgrenciBilgiSistemi.iml" filepath="$PROJECT_DIR$/src/OgrenciBilgiSistemi/OgrenciBilgiSistemi.iml" />
       <module fileurl="file://$PROJECT_DIR$/java101.iml" filepath="$PROJECT_DIR$/java101.iml" />
     </modules>
   </component>

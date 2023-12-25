@@ -6,6 +6,7 @@ public class Car {
     int speed;
     int speedLimit;
 
+    // car classını  oluştururken kurucu metdhoda tanımlayadabiliriz.
     Car(String model, int speed, String color){
         this.model = model;
         this.speed = speed;
@@ -14,10 +15,12 @@ public class Car {
         this.speedLimit = 180;
     }
 
+    // boş kurucu metodu bu
     Car(){
         System.out.println(" Boş Kurucu Metodu Oluştu ! ");
     }
-    // davranışlar
+    //
+    // davranışlar çalıstırabilecek medhod gibi
     void increaseSpeed(int increment){
         if((this.speed + increment)<this.speedLimit) {
             this.speed += increment;

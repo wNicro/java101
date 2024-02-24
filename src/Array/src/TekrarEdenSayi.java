@@ -1,6 +1,6 @@
 import  java.util.Arrays;
 public class TekrarEdenSayi {
-    static boolean ifFinf(int[] arr, int value){
+    static boolean ifFind(int[] arr, int value){
         for(int i:arr){
             if(i==value){
                 return true;
@@ -16,7 +16,7 @@ public class TekrarEdenSayi {
             for(int j =0; j<list.length;j++){
                 if((i!=j) && (list[i]==list[j])){
                     if(list[i] % 2 ==0){
-                        if(!ifFinf(duplicate,list[i])){
+                        if(!ifFind(duplicate,list[i])){
                             duplicate[startIndex++]=list[i];
                         }
                     }

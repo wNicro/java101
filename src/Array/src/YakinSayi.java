@@ -2,7 +2,7 @@ public class YakinSayi {
 
     public static void main(String[] args) {
 
-        int[] list={15,12,22,788,1,-1-778,2,0};
+        int[] list={15,12,22,788,1,1,778,2,0};
         int girilenSayi=45;
 
         int min=list[0];

@@ -97,13 +97,7 @@ class MayinSweeper{
         int sayac=0;
         for(int i=0; i<this.row;i++){
             for(int j=0; j<this.col;j++){
-                if(this.OyunMap[i][j].equals("-")) {
-                    sayac++;
-                    System.out.println(sayac);
-                    System.out.println(i);
-                    System.out.println(j);
-                    System.out.println(this.row);
-                    System.out.println(this.col);
+                if(this.MayinMap[i][j].equals("-")) {
                     return false;
                 }
             }
@@ -135,10 +129,7 @@ class MayinSweeper{
             if(finish()){
                 System.out.println("Helal Senden beklenmedik performans ! Kazandınn !!");
                 break;
-            }else{
-                System.out.println(" BOŞ");
             }
-
         }
     }
     public void run(){
